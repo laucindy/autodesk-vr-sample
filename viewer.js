@@ -29,7 +29,7 @@ function loadViewer(encodedURN) {
 function getToken() {
 	var clientID = "0ImaA07tA5Y0t0xIP6lp0zUXmAWS3EZv";
 	var clientSecret = "aB94QD5d9Ao8ERVu";		// hard-coded for now
-	$.get("https://autodesk-vr-sample.herokuapp.com/auth", function(data) {
+	$.get("https://auth-server-sample.herokuapp.com/auth", function(data) {
 		console.log(data)
 	})
 	  .done(function( msg ) {
