@@ -1,0 +1,22 @@
+#viewerLeft {
+  background-color: #eee;
+}
+
+#viewerRight {
+  background-color: #eee;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.adsk-viewing-viewer {
+	width: 50% !important;
+	height: 75% !important;
+}
+
+canvas {
+	width: 100% !important;
+	height: 100% !important;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<title>Autodesk Viewer Sample</title>
+		<link rel="stylesheet" href="https://developer.api.autodesk.com/viewingservice/v1/viewers/style.css" type="text/css">
+		<script src="https://developer.api.autodesk.com/viewingservice/v1/viewers/viewer3D.min.js"></script>
+		<script src="https://developer.static.autodesk.com/interactive/scripts/Base64.js"></script>
+		<script src="/autodesk/jquery-2.2.3.min.js"></script>
+		<script src="/autodesk/viewer.js"></script>
+		<link rel="stylesheet" href="/autodesk/viewer.css" type="text/css">
+	</head>
+	
+	<body>
+		<input type="file" id="openFile" title="Open File" onchange="loadFile()" style="visibility:hidden; width:1px; height:1px;" />
+		<button onclick="upload()">Upload File</button>
+		
+		<table border="0" cellspacing="0" cellpadding="0" >
+		  <tr>
+			<td width="50%">
+			  <div id="viewerLeft" class="viewer"></div>
+			</td>
+			<td width="50%">
+			  <div id="viewerRight" class="viewer"></div>
+			</td>
+		  </tr>
+		</table>
+
+	</body>
+</html>
